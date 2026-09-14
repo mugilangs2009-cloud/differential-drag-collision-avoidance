@@ -4,47 +4,47 @@ Thank you for your interest in making space safer! This guide will help you cont
 
 ---
 
-## 🎯 Types of Contributions Welcome
+## 🎯 **Types of Contributions Welcome**
 
-### 💻 Code
+### 💻 **Code**
 - **Core Algorithms:** Improve DDME, AECRM, orbital mechanics
 - **Dashboard:** Enhance PVSD UI/UX, add new visualization features
 - **Tests:** Expand test coverage, add edge cases
 - **Examples:** Create tutorials for users
 - **Embedded C:** Optimize microcontroller implementations
 
-### 📚 Documentation
+### 📚 **Documentation**
 - **API Docs:** Fill in missing docstrings
 - **Tutorials:** Write "how-to" guides
 - **Architecture:** Clarify complex components
 - **Case Studies:** Document real-world integrations
 
-### 🐛 Bug Reports
+### 🐛 **Bug Reports**
 - Reproduce issues reliably
 - Include environment details
 - Provide minimum reproducible example
 
-### 💡 Feature Requests
+### 💡 **Feature Requests**
 - Explain the use case
 - Describe desired behavior
 - Link to related issues
 
-### 🌍 Community
+### 🌍 **Community**
 - Answer questions in Discussions
 - Review pull requests
 - Promote DDMS in your network
 
 ---
 
-## 🚀 Getting Started
+## 🚀 **Getting Started**
 
-### 1. Fork & Clone
+### **1. Fork & Clone**
 ```bash
 git clone https://github.com/YOUR-USERNAME/differential-drag-collision-avoidance.git
 cd differential-drag-collision-avoidance
 ```
 
-### 2. Set Up Development Environment
+### **2. Set Up Development Environment**
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -58,14 +58,14 @@ pip install -r requirements-dev.txt  # Testing, linting, formatting
 pre-commit install
 ```
 
-### 3. Create Feature Branch
+### **3. Create Feature Branch**
 ```bash
 git checkout -b feature/your-feature-name
 # or
 git checkout -b bugfix/your-bug-name
 ```
 
-### 4. Make Changes
+### **4. Make Changes**
 ```bash
 # Edit files, write tests
 pytest tests/  # Run tests locally
@@ -73,7 +73,7 @@ pylint core/  # Check code quality
 black --check core/  # Check formatting
 ```
 
-### 5. Commit & Push
+### **5. Commit & Push**
 ```bash
 git add .
 git commit -m "Brief description of changes"
@@ -90,7 +90,7 @@ git commit -m "Brief description of changes"
 git push origin feature/your-feature-name
 ```
 
-### 6. Create Pull Request
+### **6. Create Pull Request**
 - Go to GitHub repository
 - Click "Compare & pull request"
 - Fill in PR template:
@@ -102,7 +102,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## 📝 Commit Message Guidelines
+## 📝 **Commit Message Guidelines**
 
 **Format:**
 ```
@@ -134,9 +134,9 @@ Fixes #123
 
 ---
 
-## 🧪 Testing Requirements
+## 🧪 **Testing Requirements**
 
-### Unit Tests
+### **Unit Tests**
 ```bash
 # Test single module
 pytest tests/unit/test_drag_model.py
@@ -145,17 +145,17 @@ pytest tests/unit/test_drag_model.py
 pytest --cov=core tests/
 ```
 
-### Integration Tests
+### **Integration Tests**
 ```bash
 pytest tests/integration/
 ```
 
-### Test Coverage Minimum
+### **Test Coverage Minimum**
 - Core logic: **≥ 80% coverage**
 - New features: **≥ 70% coverage**
 - Critical paths: **100% coverage**
 
-### Writing Tests
+### **Writing Tests**
 ```python
 import pytest
 from core.aecrm import conjunction_assessor
@@ -176,9 +176,9 @@ class TestConjunctionAssessor:
 
 ---
 
-## 🎨 Code Style
+## 🎨 **Code Style**
 
-### Python Style Guide
+### **Python Style Guide**
 Follow **PEP 8** with these tools:
 
 ```bash
@@ -193,7 +193,7 @@ flake8 core/
 mypy core/
 ```
 
-### Code Example
+### **Code Example**
 ```python
 """Conjunction assessment module."""
 
@@ -231,9 +231,9 @@ class ConjunctionAssessor:
 
 ---
 
-## 📖 Documentation Standards
+## 📖 **Documentation Standards**
 
-### Docstring Format (Google Style)
+### **Docstring Format (Google Style)**
 ```python
 def compute_drag_coefficient(
     altitude_km: float,
@@ -264,7 +264,7 @@ def compute_drag_coefficient(
     pass
 ```
 
-### README & Documentation
+### **README & Documentation**
 - Use clear headings (H1-H4)
 - Include code examples
 - Link to related sections
@@ -273,16 +273,16 @@ def compute_drag_coefficient(
 
 ---
 
-## 🔄 Review Process
+## 🔄 **Review Process**
 
-### Automated Checks
+### **Automated Checks**
 Your PR will automatically run:
 - Unit tests (`pytest`)
 - Code quality (`pylint`, `flake8`)
 - Type checking (`mypy`)
 - Coverage reports
 
-### Manual Review
+### **Manual Review**
 Maintainers will review:
 - **Correctness:** Does code do what it claims?
 - **Design:** Is approach sound?
@@ -290,14 +290,14 @@ Maintainers will review:
 - **Documentation:** Is change documented?
 - **Performance:** Will it scale?
 
-### Feedback Cycle
+### **Feedback Cycle**
 - Respond to reviewer comments within 1 week
 - Make requested changes and push new commits
 - Re-request review after changes
 
 ---
 
-## 🏆 Recognition
+## 🏆 **Recognition**
 
 Contributors are recognized in:
 - **README.md** - Major contributors section
@@ -307,9 +307,9 @@ Contributors are recognized in:
 
 ---
 
-## 📋 Development Workflow
+## 📋 **Development Workflow**
 
-### Issue → PR → Merge
+### **Issue → PR → Merge**
 ```
 1. Open Issue (or find existing one)
    ├─ Describe problem/feature
@@ -343,7 +343,7 @@ Contributors are recognized in:
 
 ---
 
-## 🚨 Code of Conduct
+## 🚨 **Code of Conduct**
 
 We are committed to providing a welcoming and inclusive environment. Please:
 
@@ -356,7 +356,7 @@ Read full [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 ---
 
-## ❓ Questions?
+## ❓ **Questions?**
 
 - **GitHub Discussions:** Ask in [Discussions tab](https://github.com/mugilangs2009-cloud/differential-drag-collision-avoidance/discussions)
 - **Issues:** Comment on related [Issues](https://github.com/mugilangs2009-cloud/differential-drag-collision-avoidance/issues)
@@ -364,7 +364,7 @@ Read full [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 ---
 
-## 🙏 Thank You
+## 🙏 **Thank You**
 
 Every contribution—big or small—helps make space safer for everyone. We appreciate your effort!
 
